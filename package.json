@@ -2,6 +2,7 @@
   "name": "cloud-drive",
   "description": "Connect to Google Drive from Cloud Function",
   "scripts": {
+    "setup": "gcloud config set project drive-198616",
     "deploy": "gcloud beta functions deploy drive --trigger-http"
   },
   "dependencies": {
