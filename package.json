@@ -6,7 +6,7 @@
     "deploy": "gcloud beta functions deploy drive --trigger-http"
   },
   "dependencies": {
-    "googleapis": "25.*"
+    "google-auth-library": "^1.3.2"
   },
   "private": true
 }
